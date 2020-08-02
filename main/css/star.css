@@ -1,0 +1,47 @@
+div.stars 
+{
+width: 370px;
+//display: inline-block;
+float: right;
+}
+input.star 
+{ 
+display: none; 
+}
+label.star 
+{
+float: right;
+padding-right: 10px;
+font-size: 15px;
+color: #444;
+transition: all .2s;
+}
+input.star-1:checked ~ label.star-1:before 
+{
+content: '\f005';
+color: #00cc00;
+transition: all .25s;
+}
+input.star-2:checked ~ label.star-2:before 
+{
+content: '\f005';
+color: #00cc00;
+transition: all .25s;
+}
+input.star-3:checked ~ label.star-3:before 
+{
+content: '\f005';
+color: #00cc00;
+transition: all .25s;
+}
+input.star-4:checked ~ label.star-4:before 
+{
+content: '\f005';
+color: #00cc00;
+transition: all .25s;
+}
+
+label.star:before {
+content: '\f005';
+font-family: FontAwesome;
+}
